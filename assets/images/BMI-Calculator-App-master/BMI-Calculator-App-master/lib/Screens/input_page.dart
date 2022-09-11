@@ -25,9 +25,9 @@ class _InputPageState extends State<InputPage> {
   //by default male will be selected
 
   late Gender selectedGender = Gender.male;
-  int height = 180;
-  int weight = 50;
-  int age = 20;
+  int height = 100;
+  int weight = 20;
+  int age = 8;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -115,8 +115,8 @@ class _InputPageState extends State<InputPage> {
                     ),
                     child: Slider(
                       value: height.toDouble(),
-                      min: 120,
-                      max: 220,
+                      min: 50,
+                      max: 150,
                       onChanged: (double newValue) {
                         setState(() {
                           height = newValue.round();
