@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_application_1/cart_page.dart';
 
 import 'package:flutter_application_1/pages/homepage.dart';
-import 'package:flutter_application_1/pages/language.dart';
+
 import 'package:flutter_application_1/pages/login_page.dart';
 import 'package:flutter_application_1/utils/routes.dart';
 // ignore: unused_import
